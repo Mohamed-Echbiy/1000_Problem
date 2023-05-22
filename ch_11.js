@@ -41,7 +41,7 @@ function roundRobin(jobs, slice, index) {
   }
   return time;
 }
-// what are the mistake I did are I tried using the map method which does not give me flexbility to end the loop as for
+// what are the mistake I did: I tried using the map method which does not give me flexbility to end the loop as for loop which throws me off for like two hours
 console.log(roundRobin([10, 20, 1], 5, 0));
 console.log("------------------------");
 console.log(roundRobin([10, 20, 1, 2, 3], 5, 2));
